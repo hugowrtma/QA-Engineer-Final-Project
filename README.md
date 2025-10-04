@@ -36,34 +36,38 @@ The tests are designed to simulate real user interactions such as login, logout,
 
 ---
 
-## 🧩 Project Structure
+```bash
+
+🧩 Project Structure
 
 QA-Engineer-Final-Project/
 │
 ├── cypress/
 │ ├── e2e/
-│ │ └── Final Project.cy.js          # File utama test case kamu (berisi scenario end-to-end)
+│ │ └── Final Project.cy.js # File utama test case kamu (berisi scenario end-to-end)
 │ │
 │ ├── support/
-│ │ ├── pages/                       # Folder untuk POM (Page Object Model)
+│ │ ├── pages/ # Folder untuk POM (Page Object Model)
 │ │ │ ├── LoginPage.js
 │ │ │ ├── DashboardPage.js
 │ │ │ └── ForgotPasswordPage.js
 │ │ │
-│ │ ├── data/                        # Data input seperti credentials
+│ │ ├── data/ # Data input seperti credentials
 │ │ │ └── userData.js
 │ │ │
-│ │ └── commands.js                  # Custom Cypress commands (optional)
+│ │ └── commands.js # Custom Cypress commands (optional)
 │ │
 │ └── fixtures/
-│   └── example.json                 # Data statis/mock (optional)
+│ └── example.json # Data statis/mock (optional)
 │
-├── cypress.config.js                # Konfigurasi Cypress (baseUrl, viewport, dsb)
-├── package.json                     # Dependency dan script (misal: "test": "cypress run")
-└── README.md                        # Dokumentasi proyek kamu
+├── cypress.config.js # Konfigurasi Cypress (baseUrl, viewport, dsb)
+├── package.json # Dependency dan script (misal: "test": "cypress run")
+└── README.md # Dokumentasi proyek kamu
+```
 
 ---
 
+```bash
 ## 🚀 How to Run Tests
 
 1️⃣ Clone the Repository
@@ -81,6 +85,7 @@ npx cypress open
 bash
 Copy code
 npx cypress run
+```
 
 ---
 
