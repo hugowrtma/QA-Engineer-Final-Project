@@ -42,21 +42,25 @@ QA-Engineer-Final-Project/
 │
 ├── cypress/
 │ ├── e2e/
-│ │ └── Final Project.cy.js
+│ │ └── Final Project.cy.js          # File utama test case kamu (berisi scenario end-to-end)
+│ │
 │ ├── support/
-│ │ ├── pages/
+│ │ ├── pages/                       # Folder untuk POM (Page Object Model)
 │ │ │ ├── LoginPage.js
 │ │ │ ├── DashboardPage.js
 │ │ │ └── ForgotPasswordPage.js
-│ │ ├── data/
+│ │ │
+│ │ ├── data/                        # Data input seperti credentials
 │ │ │ └── userData.js
-│ │ └── commands.js
+│ │ │
+│ │ └── commands.js                  # Custom Cypress commands (optional)
+│ │
 │ └── fixtures/
-│   └── example.json
+│   └── example.json                 # Data statis/mock (optional)
 │
-├── cypress.config.js
-├── package.json
-└── README.md
+├── cypress.config.js                # Konfigurasi Cypress (baseUrl, viewport, dsb)
+├── package.json                     # Dependency dan script (misal: "test": "cypress run")
+└── README.md                        # Dokumentasi proyek kamu
 
 ---
 
