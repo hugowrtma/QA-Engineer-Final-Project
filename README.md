@@ -35,9 +35,7 @@ The tests are designed to simulate real user interactions such as login, logout,
 - Clear validation of UI and API responses  
 
 ---
-
 ```bash
-
 🧩 Project Structure
 
 QA-Engineer-Final-Project/
@@ -64,9 +62,7 @@ QA-Engineer-Final-Project/
 ├── package.json # Dependency dan script (misal: "test": "cypress run")
 └── README.md # Dokumentasi proyek kamu
 ```
-
 ---
-
 ```bash
 ## 🚀 How to Run Tests
 
@@ -86,29 +82,28 @@ bash
 Copy code
 npx cypress run
 ```
-
 ---
-
+```bash
 🧠 What I Learned
 Writing maintainable test scripts using Page Object Model
 Automating E2E tests for real-world scenarios
 Validating frontend–backend interaction using cy.intercept()
 Organizing test suites for scalability and reusability
 Gaining confidence in automation QA best practices
-
+```
 ---
-
+```bash
 🎥 Demo Video
 Watch the full project presentation on YouTube: https://youtu.be/SH8OkHofpQE?si=9dlORJxe_lZgw6eW
-
+```
 ---
-
+```bash
 👤 Author
 Oktaryan Hugo
 🎓 Quality Assurance Engineer Bootcamp Graduate – SanberCode
 💼 Aspiring QA Engineer passionate about software quality and automation.
 📫 LinkedIn Profile (add your real link)
-
+```
 ---
 
 🏷️ Tags
