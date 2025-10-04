@@ -65,20 +65,24 @@ QA-Engineer-Final-Project/
 ---
 
 ## 🚀 How to Run Tests
-```bash
+
 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/hugowrtma/QA-Engineer-Final-Project.git
 cd QA-Engineer-Final-Project
+```
 2️⃣ Install Dependencies
-bash
+```bash
 Copy code
 npm install
+```
 3️⃣ Open Cypress Test Runner
-bash
+```bash
 Copy code
 npx cypress open
+```
 4️⃣ Run Tests in Headless Mode
-bash
+```bash
 Copy code
 npx cypress run
 ```
