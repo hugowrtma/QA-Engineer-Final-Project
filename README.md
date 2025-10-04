@@ -36,7 +36,7 @@ The tests are designed to simulate real user interactions such as login, logout,
 
 ---
 
-🧩 Project Structure
+## 🧩 Project Structure
 ```bash
 QA-Engineer-Final-Project/
 │
@@ -84,31 +84,31 @@ npx cypress run
 ```
 ---
 
-🧠 What I Learned
-```bash
-Writing maintainable test scripts using Page Object Model
-Automating E2E tests for real-world scenarios
-Validating frontend–backend interaction using cy.intercept()
-Organizing test suites for scalability and reusability
-Gaining confidence in automation QA best practices
-```
+## 🧠 What I Learned
+
+- Writing maintainable test scripts using Page Object Model
+- Automating E2E tests for real-world scenarios
+- Validating frontend–backend interaction using cy.intercept()
+- Organizing test suites for scalability and reusability
+- Gaining confidence in automation QA best practices
+
 ---
 
-🎥 Demo Video
-```bash
+## 🎥 Demo Video
+
 Watch the full project presentation on YouTube:
 https://youtu.be/SH8OkHofpQE?si=9dlORJxe_lZgw6eW
-```
+
 ---
 
-👤 Author
-```bash
+## 👤 Author
+
 Oktaryan Hugo
 🎓 Quality Assurance Engineer Bootcamp Graduate – SanberCode
 💼 Aspiring QA Engineer passionate about software quality and automation.
 📫 LinkedIn Profile (add your real link)
-```
+
 ---
 
-🏷️ Tags
+## 🏷️ Tags
 #QualityAssurance #Cypress #TestAutomation #Sanbercode #QABootcamp #JavaScript #AutomationTesting #OrangeHRM
