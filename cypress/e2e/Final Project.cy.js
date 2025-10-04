@@ -14,7 +14,6 @@ describe('OrangeHRM Automation with POM + Intercept', () => {
     LoginPage.visit();
   });
 
-  // 🧩 LOGIN TESTS
   it('TC_001 - Intercept login request with valid credentials', () => {
     cy.intercept('POST', '**/auth/validate').as('loginRequest');
     LoginPage.login(userData.valid.username, userData.valid.password);
@@ -48,7 +47,6 @@ describe('OrangeHRM Automation with POM + Intercept', () => {
     cy.get('.oxd-input-field-error-message').should('be.visible');
   });
 
-  // 🔐 FORGOT PASSWORD TESTS
   it('TC_006 - Intercept navigation to Forgot Password page', () => {
     cy.intercept('GET', '**/requestPasswordResetCode').as('forgotPage');
     ForgotPasswordPage.navigate();
@@ -75,7 +73,6 @@ describe('OrangeHRM Automation with POM + Intercept', () => {
     cy.url().should('include', '/auth/login');
   });
 
-  // 🧭 DASHBOARD BASIC TESTS (pengganti Directory)
   it('TC_010 - Intercept Dashboard load data requests', () => {
     cy.intercept('GET', '**/dashboard/employees/**').as('dashAPIs');
     LoginPage.login(userData.valid.username, userData.valid.password);
@@ -100,7 +97,6 @@ describe('OrangeHRM Automation with POM + Intercept', () => {
     cy.get('.oxd-icon-button').should('have.length.greaterThan', 0);
   });
 
-  // 🚪 LOGOUT TESTS
   it('TC_013 - Intercept logout process', () => {
     cy.intercept('POST', '**/events/push').as('logoutEvent');
     LoginPage.login(userData.valid.username, userData.valid.password);
